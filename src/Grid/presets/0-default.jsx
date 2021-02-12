@@ -4,7 +4,7 @@ import Button from "../../Button/Button";
 
 export default (
   <Grid container spacing={24} uxpId="1">
-    <Grid item xs={3} uxpId="1.1">
+    <Grid item xs={3} sm={6} uxpId="1.1">
       <Button
         uxpId="1.1.1"
         size="medium"
@@ -14,7 +14,7 @@ export default (
         3 cols
       </Button>
     </Grid>
-    <Grid item xs={3} uxpId="1.2">
+    <Grid item xs={3} sm={6}  uxpId="1.2">
       <Button
         uxpId="1.2.1"
         size="medium"
@@ -24,7 +24,7 @@ export default (
         3 cols
       </Button>
     </Grid>
-    <Grid item xs={3} uxpId="1.3">
+    <Grid item xs={3} sm={6}  uxpId="1.3">
       <Button
         uxpId="1.3.1"
         size="medium"
@@ -34,7 +34,7 @@ export default (
         3 cols
       </Button>
     </Grid>
-    <Grid item xs={3} uxpId="1.4">
+    <Grid item xs={3} sm={6}  uxpId="1.4">
       <Button
         uxpId="1.4.1"
         size="medium"

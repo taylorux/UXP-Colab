@@ -4,6 +4,8 @@ module.exports = {
       {
         name: "Layout",
         include: [
+          "src/DeviceViewer/DeviceViewer.js",
+          "src/Iframe/Iframe.js",
           "src/Grid/Grid.js",
           "src/GridList/GridList.js",
           "src/GridListTile/GridListTile.js",
